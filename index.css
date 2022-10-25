@@ -1,0 +1,70 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-popup {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 650px;
+    padding: 30px 60px 30px 30px;
+    background: #F5F5FA;
+    border-radius: 12px;
+}
+
+.form-popup-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.form-popup-input {
+    width: 100%;
+    flex-shrink: 0;
+    background-color: transparent;
+    padding: 15px 0 15px 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.form-popup-textarea {
+    padding: 15px 0 15px 15px;
+    width: 100%;
+    min-height: 130px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+    resize: none;
+}
+
+.form-popup-btn {
+    padding: 18px 30px;
+    background: #24A3FF;
+    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    border-radius: 12px;
+    text-align: center;
+    border: none;
+    transition: all 0.4s ease;
+}
+
+
+
+.title-gradient {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
